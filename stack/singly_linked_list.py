@@ -45,13 +45,13 @@ class LinkedList:
             while current.get_next() != self.tail:
                 current = current.get_next()
 
-                self.tail = None
-                self.tail = current
+            self.tail = None
+            self.tail = current
 
-            return data
+        return data
 
     def remove_head(self):
-        if self.hea is None:
+        if self.head is None:
             return None
 
         data = self.head.get_value()

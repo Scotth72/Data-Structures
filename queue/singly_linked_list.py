@@ -51,7 +51,7 @@ class LinkedList:
             return data
 
     def remove_head(self):
-        if self.hea is None:
+        if self.head is None:
             return None
 
         data = self.head.get_value()
